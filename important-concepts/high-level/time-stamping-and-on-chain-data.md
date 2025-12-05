@@ -1,6 +1,6 @@
 ## Timestamp Server
 
-BSV uses a distributed timestamp server to create a public record of transactions. This is achieved by hashing transactions into an ongoing chain, forming a record that is computationally impractical to alter. Each timestamp includes the previous timestamp in its hash, forming a chain of blocks, or a “blockchain.”
+BSV uses a distributed timestamp server to create a public record of transactions. This is achieved by hashing transactions into an ongoing chain, forming a record that is computationally impractical to alter. Each timestamp includes the previous timestamp in its hash, forming a chain of blocks, or a “blockchain". The blocks use a Unix timestamp, which is the number of seconds elapsed since January 1, 1970.
 
 ## Proof of Work
 
